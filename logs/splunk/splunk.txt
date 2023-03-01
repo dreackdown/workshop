@@ -1,0 +1,30 @@
+01-03-2023 00:31:37.845 | 253  | [main] | INFO  | c.e.course.CourseApplication - Iniciando Api de Workshop
+01-03-2023 00:31:38.286 | 694  | [main] | INFO  | c.e.course.CourseApplication - Starting CourseApplication using Java 17.0.4.1 with PID 18516 (C:\Users\hugof\Documents\projetos\java\course\course\target\classes started by hugof in C:\Users\hugof\Documents\projetos\java\course\course)
+01-03-2023 00:31:38.287 | 695  | [main] | INFO  | c.e.course.CourseApplication - The following 1 profile is active: "prod"
+01-03-2023 00:31:38.854 | 1262 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01-03-2023 00:31:38.907 | 1315 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+01-03-2023 00:31:39.408 | 1816 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01-03-2023 00:31:39.418 | 1826 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01-03-2023 00:31:39.419 | 1827 | [main] | INFO  | o.a.catalina.core.StandardService - Starting service [Tomcat]
+01-03-2023 00:31:39.419 | 1827 | [main] | INFO  | o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01-03-2023 00:31:39.521 | 1929 | [main] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01-03-2023 00:31:39.522 | 1930 | [main] | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1187 ms
+01-03-2023 00:31:39.764 | 2172 | [main] | INFO  | o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01-03-2023 00:31:39.815 | 2223 | [main] | INFO  | org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+01-03-2023 00:31:39.976 | 2384 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+01-03-2023 00:31:40.094 | 2502 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Starting...
+01-03-2023 00:31:40.434 | 2842 | [main] | INFO  | com.zaxxer.hikari.pool.HikariPool - HikariPoolBooks - Added connection oracle.jdbc.driver.T4CConnection@10cd36d
+01-03-2023 00:31:40.436 | 2844 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Start completed.
+01-03-2023 00:31:40.455 | 2863 | [main] | INFO  | SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+01-03-2023 00:31:40.455 | 2863 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+01-03-2023 00:31:43.878 | 6286 | [main] | INFO  | o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01-03-2023 00:31:43.887 | 6295 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01-03-2023 00:31:44.387 | 6795 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01-03-2023 00:31:44.407 | 6815 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01-03-2023 00:31:44.415 | 6823 | [main] | INFO  | c.e.course.CourseApplication - Started CourseApplication in 6.48 seconds (process running for 7.061)
+01-03-2023 00:31:44.417 | 6825 | [main] | INFO  | c.e.course.CourseApplication - Api de Workshop iniciada com sucesso
+01-03-2023 00:32:53.815 | 76223 | [http-nio-8080-exec-2] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01-03-2023 00:32:53.815 | 76223 | [http-nio-8080-exec-2] | INFO  | o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01-03-2023 00:32:53.816 | 76224 | [http-nio-8080-exec-2] | INFO  | o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+01-03-2023 00:32:53.848 | 76256 | [http-nio-8080-exec-2] | INFO  | c.e.course.services.UserService - Retorno de users com sucesso
+01-03-2023 00:33:11.492 | 93900 | [http-nio-8080-exec-3] | INFO  | c.e.course.services.UserService - Retorno do user: Keane
