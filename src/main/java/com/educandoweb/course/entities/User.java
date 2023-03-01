@@ -1,11 +1,11 @@
 package com.educandoweb.course.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -22,4 +22,8 @@ public class User implements Serializable {
     private String email;
     private String phone;
     private String password;
+
+    @Setter(AccessLevel.NONE)
+    @OneToMany(mappedBy = "client")
+    private final List<Order> orders = new ArrayList<>();
 }
