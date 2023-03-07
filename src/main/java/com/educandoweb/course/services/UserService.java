@@ -19,7 +19,7 @@ public class UserService {
     private UserRepository userRepository;
 
     public List<User> findAll(){
-        LOGGER.info("Retorno de users com sucesso");
+        LOGGER.info("Retorno de Users com sucesso");
         return userRepository.findAll();
     }
 

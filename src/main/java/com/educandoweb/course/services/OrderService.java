@@ -25,7 +25,7 @@ public class OrderService {
 
     public Order fyndById(Long id) {
         Optional<Order> obj = OrderRepository.findById(id);
-        LOGGER.info("Retorno do Order: " + obj.get().getClient() + obj.get().getMoment());
+        LOGGER.info("Retorno de Order: " + obj.get().getClient() + obj.get().getMoment());
         return obj.get();
     }
 }

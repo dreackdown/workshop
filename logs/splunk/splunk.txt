@@ -14588,3 +14588,97 @@ Caused by: org.hibernate.TransientPropertyValueException: object references an u
 06-03-2023 22:15:10.702 | 20232 | [http-nio-8080-exec-1] | INFO  | o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 06-03-2023 22:15:10.702 | 20232 | [http-nio-8080-exec-1] | INFO  | o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
 06-03-2023 22:15:10.727 | 20257 | [http-nio-8080-exec-1] | INFO  | c.e.course.services.OrderService - Retorno de Orders com sucesso
+06-03-2023 22:35:16.289 | 1225819 | [SpringApplicationShutdownHook] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:35:16.291 | 1225821 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown initiated...
+06-03-2023 22:35:16.299 | 1225829 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown completed.
+06-03-2023 22:35:21.307 | 227  | [main] | INFO  | c.e.course.CourseApplication - Iniciando Api de Workshop
+06-03-2023 22:35:21.754 | 674  | [main] | INFO  | c.e.course.CourseApplication - Starting CourseApplication using Java 17.0.4.1 with PID 17300 (C:\Users\hugof\Documents\projetos\java\course\course\target\classes started by hugof in C:\Users\hugof\Documents\projetos\java\course\course)
+06-03-2023 22:35:21.755 | 675  | [main] | INFO  | c.e.course.CourseApplication - The following 1 profile is active: "prod"
+06-03-2023 22:35:22.344 | 1264 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06-03-2023 22:35:22.403 | 1323 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+06-03-2023 22:35:22.920 | 1840 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+06-03-2023 22:35:22.931 | 1851 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:35:22.932 | 1852 | [main] | INFO  | o.a.catalina.core.StandardService - Starting service [Tomcat]
+06-03-2023 22:35:22.932 | 1852 | [main] | INFO  | o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+06-03-2023 22:35:23.040 | 1960 | [main] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+06-03-2023 22:35:23.042 | 1962 | [main] | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1237 ms
+06-03-2023 22:35:23.299 | 2219 | [main] | INFO  | o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+06-03-2023 22:35:23.352 | 2272 | [main] | INFO  | org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+06-03-2023 22:35:23.523 | 2443 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+06-03-2023 22:35:23.650 | 2570 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Starting...
+06-03-2023 22:35:24.002 | 2922 | [main] | INFO  | com.zaxxer.hikari.pool.HikariPool - HikariPoolBooks - Added connection oracle.jdbc.driver.T4CConnection@f2df29
+06-03-2023 22:35:24.004 | 2924 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Start completed.
+06-03-2023 22:35:24.023 | 2943 | [main] | INFO  | SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+06-03-2023 22:35:24.023 | 2943 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+06-03-2023 22:35:24.986 | 3906 | [main] | WARN  | o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "drop table tbl_category cascade constraints" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "drop table tbl_category cascade constraints" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:419)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:403)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:272)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:178)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:149)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:242)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.educandoweb.course.CourseApplication.main(CourseApplication.java:15)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: a tabela ou view não existe
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:629)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:563)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1230)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:771)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:298)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:511)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:122)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1199)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1819)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1471)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2504)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2459)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:327)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 36 common frames omitted
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00942: a tabela ou view não existe
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:636)
+	... 51 common frames omitted
+06-03-2023 22:35:25.203 | 4123 | [main] | INFO  | o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06-03-2023 22:35:25.212 | 4132 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:35:25.755 | 4675 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:35:25.773 | 4693 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+06-03-2023 22:35:25.782 | 4702 | [main] | INFO  | c.e.course.CourseApplication - Started CourseApplication in 4.384 seconds (process running for 4.946)
+06-03-2023 22:35:25.965 | 4885 | [main] | INFO  | c.e.course.CourseApplication - Api de Workshop iniciada com sucesso
+06-03-2023 22:36:27.987 | 66907 | [SpringApplicationShutdownHook] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:36:27.987 | 66907 | [SpringApplicationShutdownHook] | INFO  | o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+06-03-2023 22:36:28.059 | 66979 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown initiated...
+06-03-2023 22:36:28.066 | 66986 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown completed.
