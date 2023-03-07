@@ -2,6 +2,7 @@ package com.educandoweb.course.config;
 
 import com.educandoweb.course.entities.Order;
 import com.educandoweb.course.entities.User;
+import com.educandoweb.course.entities.enums.OrderStatus;
 import com.educandoweb.course.repositories.OrderRepository;
 import com.educandoweb.course.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,7 @@ import java.time.Instant;
 import java.util.Arrays;
 
 @Configuration
-@Profile("dsv")
+@Profile("prod")
 public class DsvConfig implements CommandLineRunner {
 
     @Autowired
@@ -43,9 +44,9 @@ public class DsvConfig implements CommandLineRunner {
         User u16 = new User(null, "Laith", "donec.non@google.edu", "2599702", "UPK54XLD8KS");
         User u17 = new User(null, "Quamar", "ullamcorper@outlook.org", "14346152354", "FKX27KWH8IK");
 
-        Order o1 = new Order(null, Instant.parse("2023-02-20T19:53:07Z"), u1);
-        Order o2 = new Order(null, Instant.parse("2023-02-21T03:42:10Z"), u2);
-        Order o3 = new Order(null, Instant.parse("2023-01-22T15:21:22Z"), u1);
+        Order o1 = new Order(null, Instant.parse("2023-01-20T19:53:07Z"), OrderStatus.PAID, u1);
+        Order o2 = new Order(null, Instant.parse("2023-01-21T03:42:10Z"), OrderStatus.WAITING_PAYMENT, u2);
+        Order o3 = new Order(null, Instant.parse("2023-02-22T15:21:22Z"), OrderStatus.WAITING_PAYMENT, u1);
 
         userRepository.saveAll(Arrays.asList(u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17));
         orderRepository.saveAll(Arrays.asList(o1, o2, o3));

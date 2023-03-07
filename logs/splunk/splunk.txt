@@ -14347,3 +14347,244 @@ java.lang.StackOverflowError: null
 06-03-2023 21:47:10.724 | 11278 | [http-nio-8080-exec-3] | INFO  | c.e.course.services.OrderService - Retorno do Order: com.educandoweb.course.entities.User@202023-02-20T19:53:07Z
 06-03-2023 21:47:15.666 | 16220 | [http-nio-8080-exec-4] | INFO  | c.e.course.services.OrderService - Retorno do Order: com.educandoweb.course.entities.User@212023-02-21T03:42:10Z
 06-03-2023 21:47:18.330 | 18884 | [http-nio-8080-exec-5] | INFO  | c.e.course.services.OrderService - Retorno do Order: com.educandoweb.course.entities.User@202023-01-22T15:21:22Z
+06-03-2023 21:57:40.964 | 641518 | [SpringApplicationShutdownHook] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 21:57:40.966 | 641520 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown initiated...
+06-03-2023 21:57:40.972 | 641526 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown completed.
+06-03-2023 21:57:44.223 | 213  | [main] | INFO  | c.e.course.CourseApplication - Iniciando Api de Workshop
+06-03-2023 21:57:44.653 | 643  | [main] | INFO  | c.e.course.CourseApplication - Starting CourseApplication using Java 17.0.4.1 with PID 4564 (C:\Users\hugof\Documents\projetos\java\course\course\target\classes started by hugof in C:\Users\hugof\Documents\projetos\java\course\course)
+06-03-2023 21:57:44.654 | 644  | [main] | INFO  | c.e.course.CourseApplication - The following 1 profile is active: "prod"
+06-03-2023 21:57:45.218 | 1208 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06-03-2023 21:57:45.271 | 1261 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+06-03-2023 21:57:45.761 | 1751 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+06-03-2023 21:57:45.771 | 1761 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06-03-2023 21:57:45.771 | 1761 | [main] | INFO  | o.a.catalina.core.StandardService - Starting service [Tomcat]
+06-03-2023 21:57:45.771 | 1761 | [main] | INFO  | o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+06-03-2023 21:57:45.873 | 1863 | [main] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+06-03-2023 21:57:45.875 | 1865 | [main] | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1172 ms
+06-03-2023 21:57:46.114 | 2104 | [main] | INFO  | o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+06-03-2023 21:57:46.164 | 2154 | [main] | INFO  | org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+06-03-2023 21:57:46.324 | 2314 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+06-03-2023 21:57:46.444 | 2434 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Starting...
+06-03-2023 21:57:46.782 | 2772 | [main] | INFO  | com.zaxxer.hikari.pool.HikariPool - HikariPoolBooks - Added connection oracle.jdbc.driver.T4CConnection@463b09
+06-03-2023 21:57:46.784 | 2774 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Start completed.
+06-03-2023 21:57:46.803 | 2793 | [main] | INFO  | SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+06-03-2023 21:57:46.803 | 2793 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+06-03-2023 21:57:47.997 | 3987 | [main] | INFO  | o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06-03-2023 21:57:48.006 | 3996 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 21:57:48.526 | 4516 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06-03-2023 21:57:48.544 | 4534 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+06-03-2023 21:57:48.552 | 4542 | [main] | INFO  | c.e.course.CourseApplication - Started CourseApplication in 4.243 seconds (process running for 4.77)
+06-03-2023 21:57:48.659 | 4649 | [main] | INFO  | o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+06-03-2023 21:57:48.682 | 4672 | [main] | ERROR | o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.educandoweb.course.CourseApplication.main(CourseApplication.java:15)
+Caused by: org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.educandoweb.course.entities.Order.client -> com.educandoweb.course.entities.User
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:368)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:235)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy113.saveAll(Unknown Source)
+	at com.educandoweb.course.config.DsvConfig.run(DsvConfig.java:38)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
+	... 5 common frames omitted
+Caused by: java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.educandoweb.course.entities.Order.client -> com.educandoweb.course.entities.User
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:161)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1429)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:477)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2234)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1930)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 21 common frames omitted
+Caused by: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.educandoweb.course.entities.Order.client -> com.educandoweb.course.entities.User
+	at org.hibernate.engine.spi.CascadingActions$8.noCascade(CascadingActions.java:383)
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:169)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.cascadeOnFlush(AbstractFlushingEventListener.java:155)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.prepareEntityFlushes(AbstractFlushingEventListener.java:145)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:79)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:38)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	... 29 common frames omitted
+06-03-2023 21:57:48.697 | 4687 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 21:57:48.698 | 4688 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown initiated...
+06-03-2023 21:57:48.704 | 4694 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown completed.
+06-03-2023 21:59:00.871 | 219  | [main] | INFO  | c.e.course.CourseApplication - Iniciando Api de Workshop
+06-03-2023 21:59:01.329 | 677  | [main] | INFO  | c.e.course.CourseApplication - Starting CourseApplication using Java 17.0.4.1 with PID 8284 (C:\Users\hugof\Documents\projetos\java\course\course\target\classes started by hugof in C:\Users\hugof\Documents\projetos\java\course\course)
+06-03-2023 21:59:01.330 | 678  | [main] | INFO  | c.e.course.CourseApplication - The following 1 profile is active: "prod"
+06-03-2023 21:59:01.924 | 1272 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06-03-2023 21:59:01.980 | 1328 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+06-03-2023 21:59:02.494 | 1842 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+06-03-2023 21:59:02.503 | 1851 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06-03-2023 21:59:02.503 | 1851 | [main] | INFO  | o.a.catalina.core.StandardService - Starting service [Tomcat]
+06-03-2023 21:59:02.503 | 1851 | [main] | INFO  | o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+06-03-2023 21:59:02.609 | 1957 | [main] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+06-03-2023 21:59:02.610 | 1958 | [main] | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1227 ms
+06-03-2023 21:59:02.868 | 2216 | [main] | INFO  | o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+06-03-2023 21:59:02.919 | 2267 | [main] | INFO  | org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+06-03-2023 21:59:03.088 | 2436 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+06-03-2023 21:59:03.221 | 2569 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Starting...
+06-03-2023 21:59:03.552 | 2900 | [main] | INFO  | com.zaxxer.hikari.pool.HikariPool - HikariPoolBooks - Added connection oracle.jdbc.driver.T4CConnection@bbaab3
+06-03-2023 21:59:03.554 | 2902 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Start completed.
+06-03-2023 21:59:03.575 | 2923 | [main] | INFO  | SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+06-03-2023 21:59:03.575 | 2923 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+06-03-2023 21:59:04.814 | 4162 | [main] | INFO  | o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06-03-2023 21:59:04.822 | 4170 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 21:59:05.368 | 4716 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06-03-2023 21:59:05.386 | 4734 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+06-03-2023 21:59:05.396 | 4744 | [main] | INFO  | c.e.course.CourseApplication - Started CourseApplication in 4.431 seconds (process running for 4.983)
+06-03-2023 21:59:05.397 | 4745 | [main] | INFO  | c.e.course.CourseApplication - Api de Workshop iniciada com sucesso
+06-03-2023 21:59:05.963 | 5311 | [http-nio-8080-exec-1] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-03-2023 21:59:05.963 | 5311 | [http-nio-8080-exec-1] | INFO  | o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+06-03-2023 21:59:05.964 | 5312 | [http-nio-8080-exec-1] | INFO  | o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+06-03-2023 21:59:05.989 | 5337 | [http-nio-8080-exec-1] | INFO  | c.e.course.services.OrderService - Retorno de Orders com sucesso
+06-03-2023 22:00:02.159 | 61507 | [SpringApplicationShutdownHook] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:00:02.161 | 61509 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown initiated...
+06-03-2023 22:00:02.166 | 61514 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown completed.
+06-03-2023 22:00:04.135 | 209  | [main] | INFO  | c.e.course.CourseApplication - Iniciando Api de Workshop
+06-03-2023 22:00:04.568 | 642  | [main] | INFO  | c.e.course.CourseApplication - Starting CourseApplication using Java 17.0.4.1 with PID 3032 (C:\Users\hugof\Documents\projetos\java\course\course\target\classes started by hugof in C:\Users\hugof\Documents\projetos\java\course\course)
+06-03-2023 22:00:04.569 | 643  | [main] | INFO  | c.e.course.CourseApplication - The following 1 profile is active: "prod"
+06-03-2023 22:00:05.117 | 1191 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06-03-2023 22:00:05.173 | 1247 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+06-03-2023 22:00:05.754 | 1828 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+06-03-2023 22:00:05.773 | 1847 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:00:05.774 | 1848 | [main] | INFO  | o.a.catalina.core.StandardService - Starting service [Tomcat]
+06-03-2023 22:00:05.774 | 1848 | [main] | INFO  | o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+06-03-2023 22:00:05.890 | 1964 | [main] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+06-03-2023 22:00:05.892 | 1966 | [main] | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1273 ms
+06-03-2023 22:00:06.183 | 2257 | [main] | INFO  | o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+06-03-2023 22:00:06.261 | 2335 | [main] | INFO  | org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+06-03-2023 22:00:06.437 | 2511 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+06-03-2023 22:00:06.557 | 2631 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Starting...
+06-03-2023 22:00:06.890 | 2964 | [main] | INFO  | com.zaxxer.hikari.pool.HikariPool - HikariPoolBooks - Added connection oracle.jdbc.driver.T4CConnection@13c8b60
+06-03-2023 22:00:06.892 | 2966 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Start completed.
+06-03-2023 22:00:06.912 | 2986 | [main] | INFO  | SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+06-03-2023 22:00:06.912 | 2986 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+06-03-2023 22:00:08.245 | 4319 | [main] | INFO  | o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06-03-2023 22:00:08.256 | 4330 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:00:08.855 | 4929 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:00:08.875 | 4949 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+06-03-2023 22:00:08.884 | 4958 | [main] | INFO  | c.e.course.CourseApplication - Started CourseApplication in 4.662 seconds (process running for 5.208)
+06-03-2023 22:00:08.886 | 4960 | [main] | INFO  | c.e.course.CourseApplication - Api de Workshop iniciada com sucesso
+06-03-2023 22:00:24.019 | 20093 | [http-nio-8080-exec-1] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-03-2023 22:00:24.019 | 20093 | [http-nio-8080-exec-1] | INFO  | o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+06-03-2023 22:00:24.020 | 20094 | [http-nio-8080-exec-1] | INFO  | o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+06-03-2023 22:00:24.047 | 20121 | [http-nio-8080-exec-1] | INFO  | c.e.course.services.OrderService - Retorno de Orders com sucesso
+06-03-2023 22:00:41.453 | 37527 | [http-nio-8080-exec-4] | INFO  | c.e.course.services.OrderService - Retorno do Order: com.educandoweb.course.entities.User@202023-02-20T19:53:07Z
+06-03-2023 22:07:12.511 | 428585 | [SpringApplicationShutdownHook] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:07:12.514 | 428588 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown initiated...
+06-03-2023 22:07:12.520 | 428594 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown completed.
+06-03-2023 22:12:15.034 | 216  | [main] | INFO  | c.e.course.CourseApplication - Iniciando Api de Workshop
+06-03-2023 22:12:15.459 | 641  | [main] | INFO  | c.e.course.CourseApplication - Starting CourseApplication using Java 17.0.4.1 with PID 10592 (C:\Users\hugof\Documents\projetos\java\course\course\target\classes started by hugof in C:\Users\hugof\Documents\projetos\java\course\course)
+06-03-2023 22:12:15.460 | 642  | [main] | INFO  | c.e.course.CourseApplication - The following 1 profile is active: "prod"
+06-03-2023 22:12:16.081 | 1263 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06-03-2023 22:12:16.144 | 1326 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+06-03-2023 22:12:16.658 | 1840 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+06-03-2023 22:12:16.667 | 1849 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:12:16.667 | 1849 | [main] | INFO  | o.a.catalina.core.StandardService - Starting service [Tomcat]
+06-03-2023 22:12:16.668 | 1850 | [main] | INFO  | o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+06-03-2023 22:12:16.771 | 1953 | [main] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+06-03-2023 22:12:16.773 | 1955 | [main] | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1265 ms
+06-03-2023 22:12:17.007 | 2189 | [main] | INFO  | o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+06-03-2023 22:12:17.058 | 2240 | [main] | INFO  | org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+06-03-2023 22:12:17.226 | 2408 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+06-03-2023 22:12:17.350 | 2532 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Starting...
+06-03-2023 22:12:17.685 | 2867 | [main] | INFO  | com.zaxxer.hikari.pool.HikariPool - HikariPoolBooks - Added connection oracle.jdbc.driver.T4CConnection@1e42a09
+06-03-2023 22:12:17.687 | 2869 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Start completed.
+06-03-2023 22:12:17.705 | 2887 | [main] | INFO  | SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+06-03-2023 22:12:17.705 | 2887 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+06-03-2023 22:12:18.834 | 4016 | [main] | INFO  | o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06-03-2023 22:12:18.843 | 4025 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:12:19.390 | 4572 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:12:19.414 | 4596 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+06-03-2023 22:12:19.423 | 4605 | [main] | INFO  | c.e.course.CourseApplication - Started CourseApplication in 4.302 seconds (process running for 4.835)
+06-03-2023 22:12:19.424 | 4606 | [main] | INFO  | c.e.course.CourseApplication - Api de Workshop iniciada com sucesso
+06-03-2023 22:12:22.677 | 7859 | [SpringApplicationShutdownHook] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:12:22.678 | 7860 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown initiated...
+06-03-2023 22:12:22.685 | 7867 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown completed.
+06-03-2023 22:12:25.917 | 208  | [main] | INFO  | c.e.course.CourseApplication - Iniciando Api de Workshop
+06-03-2023 22:12:26.341 | 632  | [main] | INFO  | c.e.course.CourseApplication - Starting CourseApplication using Java 17.0.4.1 with PID 3820 (C:\Users\hugof\Documents\projetos\java\course\course\target\classes started by hugof in C:\Users\hugof\Documents\projetos\java\course\course)
+06-03-2023 22:12:26.342 | 633  | [main] | INFO  | c.e.course.CourseApplication - The following 1 profile is active: "prod"
+06-03-2023 22:12:26.878 | 1169 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06-03-2023 22:12:26.930 | 1221 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+06-03-2023 22:12:27.409 | 1700 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+06-03-2023 22:12:27.418 | 1709 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:12:27.419 | 1710 | [main] | INFO  | o.a.catalina.core.StandardService - Starting service [Tomcat]
+06-03-2023 22:12:27.419 | 1710 | [main] | INFO  | o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+06-03-2023 22:12:27.519 | 1810 | [main] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+06-03-2023 22:12:27.521 | 1812 | [main] | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1134 ms
+06-03-2023 22:12:27.755 | 2046 | [main] | INFO  | o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+06-03-2023 22:12:27.805 | 2096 | [main] | INFO  | org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+06-03-2023 22:12:27.963 | 2254 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+06-03-2023 22:12:28.079 | 2370 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Starting...
+06-03-2023 22:12:28.387 | 2678 | [main] | INFO  | com.zaxxer.hikari.pool.HikariPool - HikariPoolBooks - Added connection oracle.jdbc.driver.T4CConnection@463b09
+06-03-2023 22:12:28.388 | 2679 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Start completed.
+06-03-2023 22:12:28.407 | 2698 | [main] | INFO  | SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+06-03-2023 22:12:28.407 | 2698 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+06-03-2023 22:12:29.572 | 3863 | [main] | INFO  | o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06-03-2023 22:12:29.582 | 3873 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:12:30.102 | 4393 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:12:30.120 | 4411 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+06-03-2023 22:12:30.128 | 4419 | [main] | INFO  | c.e.course.CourseApplication - Started CourseApplication in 4.127 seconds (process running for 4.642)
+06-03-2023 22:12:30.275 | 4566 | [main] | INFO  | c.e.course.CourseApplication - Api de Workshop iniciada com sucesso
+06-03-2023 22:12:45.402 | 19693 | [http-nio-8080-exec-2] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-03-2023 22:12:45.403 | 19694 | [http-nio-8080-exec-2] | INFO  | o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+06-03-2023 22:12:45.403 | 19694 | [http-nio-8080-exec-2] | INFO  | o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+06-03-2023 22:12:45.428 | 19719 | [http-nio-8080-exec-2] | INFO  | c.e.course.services.OrderService - Retorno de Orders com sucesso
+06-03-2023 22:12:45.611 | 19902 | [http-nio-8080-exec-2] | WARN  | o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Cannot invoke "java.lang.Integer.intValue()" because "this.orderStatus" is null]
+06-03-2023 22:14:47.090 | 141381 | [SpringApplicationShutdownHook] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:14:47.091 | 141382 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown initiated...
+06-03-2023 22:14:47.098 | 141389 | [SpringApplicationShutdownHook] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Shutdown completed.
+06-03-2023 22:14:50.684 | 214  | [main] | INFO  | c.e.course.CourseApplication - Iniciando Api de Workshop
+06-03-2023 22:14:51.134 | 664  | [main] | INFO  | c.e.course.CourseApplication - Starting CourseApplication using Java 17.0.4.1 with PID 3084 (C:\Users\hugof\Documents\projetos\java\course\course\target\classes started by hugof in C:\Users\hugof\Documents\projetos\java\course\course)
+06-03-2023 22:14:51.135 | 665  | [main] | INFO  | c.e.course.CourseApplication - The following 1 profile is active: "prod"
+06-03-2023 22:14:51.704 | 1234 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06-03-2023 22:14:51.762 | 1292 | [main] | INFO  | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+06-03-2023 22:14:52.260 | 1790 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+06-03-2023 22:14:52.270 | 1800 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:14:52.271 | 1801 | [main] | INFO  | o.a.catalina.core.StandardService - Starting service [Tomcat]
+06-03-2023 22:14:52.271 | 1801 | [main] | INFO  | o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+06-03-2023 22:14:52.374 | 1904 | [main] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+06-03-2023 22:14:52.375 | 1905 | [main] | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1190 ms
+06-03-2023 22:14:52.607 | 2137 | [main] | INFO  | o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+06-03-2023 22:14:52.665 | 2195 | [main] | INFO  | org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+06-03-2023 22:14:52.825 | 2355 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+06-03-2023 22:14:52.945 | 2475 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Starting...
+06-03-2023 22:14:53.258 | 2788 | [main] | INFO  | com.zaxxer.hikari.pool.HikariPool - HikariPoolBooks - Added connection oracle.jdbc.driver.T4CConnection@df3582
+06-03-2023 22:14:53.260 | 2790 | [main] | INFO  | com.zaxxer.hikari.HikariDataSource - HikariPoolBooks - Start completed.
+06-03-2023 22:14:53.279 | 2809 | [main] | INFO  | SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+06-03-2023 22:14:53.279 | 2809 | [main] | WARN  | org.hibernate.orm.deprecation - HHH90000026: Oracle12cDialect has been deprecated; use org.hibernate.dialect.OracleDialect instead
+06-03-2023 22:14:55.446 | 4976 | [main] | INFO  | o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06-03-2023 22:14:55.456 | 4986 | [main] | INFO  | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06-03-2023 22:14:55.980 | 5510 | [main] | INFO  | o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06-03-2023 22:14:55.998 | 5528 | [main] | INFO  | o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+06-03-2023 22:14:56.007 | 5537 | [main] | INFO  | c.e.course.CourseApplication - Started CourseApplication in 5.227 seconds (process running for 5.817)
+06-03-2023 22:14:56.148 | 5678 | [main] | INFO  | c.e.course.CourseApplication - Api de Workshop iniciada com sucesso
+06-03-2023 22:15:10.702 | 20232 | [http-nio-8080-exec-1] | INFO  | o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-03-2023 22:15:10.702 | 20232 | [http-nio-8080-exec-1] | INFO  | o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+06-03-2023 22:15:10.702 | 20232 | [http-nio-8080-exec-1] | INFO  | o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+06-03-2023 22:15:10.727 | 20257 | [http-nio-8080-exec-1] | INFO  | c.e.course.services.OrderService - Retorno de Orders com sucesso

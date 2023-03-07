@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "tb_user")
+@Table(name = "tbl_user")
 public class User implements Serializable {
     private static final long serialVersionUID = 1L;
 
